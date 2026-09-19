@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>Milestone Leaderboard</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">ROBLOX • MILESTONES</p>
+        <h1>Milestone Leaderboard</h1>
+        <p class="subtitle">Максимальный достигнутый milestone для каждого персонажа.</p>
+      </div>
+      <div class="status" id="status">Загрузка…</div>
+    </header>
+
+    <nav class="tabs" aria-label="Категория">
+      <button class="tab active" data-tab="survivors">Survivors</button>
+      <button class="tab" data-tab="killers">Killers</button>
+    </nav>
+
+    <section class="card">
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Персонаж</th>
+              <th>Milestone</th>
+              <th>Игрок</th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <div class="empty hidden" id="empty">Пока нет данных.</div>
+    </section>
+
+    <footer>
+      <span id="meta"></span>
+    </footer>
+  </main>
+
+  <script src="./app.js" type="module"></script>
+</body>
+</html>
