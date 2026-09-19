@@ -1,0 +1,10 @@
+{
+  "generatedAt": null,
+  "universeId": "10764295351",
+  "dataStore": "Sekretochka",
+  "scannedPlayers": 0,
+  "failedEntries": 0,
+  "survivors": [],
+  "killers": [],
+  "error": "Данные ещё не были сгенерированы. Запусти GitHub Action после добавления ROBLOX_API_KEY в Secrets."
+}

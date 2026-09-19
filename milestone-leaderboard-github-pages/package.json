@@ -1,0 +1,11 @@
+{
+  "name": "roblox-milestone-leaderboard-pages",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update-leaderboard.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
